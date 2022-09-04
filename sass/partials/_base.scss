@@ -3,6 +3,7 @@ body {
   height: 100%;
 }
 body {
+  font-family: $font-primary !important;
   background-color: getColor(beigei);
   display: flex;
   flex-direction: column;

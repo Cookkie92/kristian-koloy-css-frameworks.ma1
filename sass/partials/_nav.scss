@@ -1,9 +1,13 @@
 nav {
   background-color: getColor(lightbeige);
   .navbar-brand {
+    margin-left: 2%;
     font-size: 36px;
+    color: getColor(logocolor);
   }
-
+  .navbar-nav {
+    margin-right: 2%;
+  }
   .navbar-light .navbar-nav .nav-link {
     color: getColor(greyi);
     font-size: 18px;

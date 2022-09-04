@@ -4,6 +4,7 @@ body {
 }
 
 body {
+  font-family: "Archivo Narrow", sans-serif !important;
   background-color: #e5e5e5;
   display: flex;
   flex-direction: column;
@@ -16,22 +17,37 @@ footer {
   flex-shrink: 0;
   padding: 0.5em;
 }
+footer .footer-mail {
+  margin-left: 2%;
+}
+footer .footer-cpyright {
+  margin-right: 2%;
+}
 
 .wrapper {
   flex: 1 0 auto;
 }
 
+.home {
+  color: #463f3a;
+  padding: 2.5rem;
+  font-size: 34px;
+}
+
 nav {
   background-color: #f4f3ee;
-  justify-content: space-around;
 }
 nav .navbar-brand {
+  margin-left: 2%;
   font-size: 36px;
+  color: #262626;
+}
+nav .navbar-nav {
+  margin-right: 2%;
 }
 nav .navbar-light .navbar-nav .nav-link {
   color: #8d8d8d;
   font-size: 18px;
-  font-family: "Archivo Narrow", sans-serif !important;
 }
 nav .active a {
   color: #c32c72 !important;
@@ -40,7 +56,8 @@ nav .active a {
 .card {
   background-color: #f4f3ee;
   border-radius: 15px;
-  display: flex;
+  margin: 10px;
+  padding: 4.5rem;
 }
 .card.pinkborder {
   background-color: white;

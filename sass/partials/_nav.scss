@@ -7,6 +7,7 @@ nav {
   }
   .navbar-nav {
     margin-right: 2%;
+    font-family: $font-primary !important;
   }
   .navbar-light .navbar-nav .nav-link {
     color: getColor(greyi);
@@ -15,5 +16,8 @@ nav {
 
   .active a {
     color: getColor(pinki) !important;
+  }
+  .collapse .navbar-collapse {
+    z-index: 1;
   }
 }

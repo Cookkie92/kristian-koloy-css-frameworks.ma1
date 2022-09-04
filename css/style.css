@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f3ee;
+  flex-shrink: 0;
+  padding: 0.5em;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+nav {
+  background-color: #f4f3ee;
+  justify-content: space-around;
+}
+nav .navbar-brand {
+  font-size: 36px;
+}
+nav .navbar-light .navbar-nav .nav-link {
+  color: #8d8d8d;
+  font-size: 18px;
+  font-family: "Archivo Narrow", sans-serif !important;
+}
+nav .active a {
+  color: #c32c72 !important;
+}
+
+.card {
+  background-color: #f4f3ee;
+  border-radius: 15px;
+  display: flex;
+}
+.card.pinkborder {
+  background-color: white;
+  border: 3px solid #c32c72;
+}
+.card.pinkbackground {
+  background-color: #c32c72;
+  border: 3px solid white;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+$colors: (
+  beigei: #e5e5e5,
+  lightbeige: #f4f3ee,
+  pinki: #c32c72,
+  greyi: #8d8d8d,
+);
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}

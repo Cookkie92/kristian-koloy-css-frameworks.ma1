@@ -1,0 +1,17 @@
+nav {
+  background-color: getColor(lightbeige);
+  justify-content: space-around;
+  .navbar-brand {
+    font-size: 36px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: getColor(greyi);
+    font-size: 18px;
+    font-family: $font-nav-link !important;
+  }
+
+  .active a {
+    color: getColor(pinki) !important;
+  }
+}

@@ -1,0 +1,12 @@
+.card {
+  background-color: getColor(lightbeige);
+  border-radius: 15px;
+  &.pinkborder {
+    background-color: white;
+    border: 3px solid getColor(pinki);
+  }
+  &.pinkbackground {
+    background-color: getColor(pinki);
+    border: 3px solid white;
+  }
+}
